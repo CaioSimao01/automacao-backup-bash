@@ -6,7 +6,7 @@
 
 O **TRUEBACKUP** é um programa em **Shell Script (Bash)** que faz backups **versionados** de uma pasta escolhida pelo usuário. Cada execução gera um *snapshot* (uma "foto" da pasta naquele momento), e os arquivos que não mudaram entre um snapshot e outro **não são copiados de novo**: são reaproveitados com *hard links*, economizando espaço em disco.
 
-Projeto desenvolvido na faculdade (Bacharelado em Sistemas de Informação, IFBA) e apresentado com conceitos de **Sistemas Operacionais**: hard links, processos, chamadas de sistema e atomicidade.
+Projeto desenvolvido em dupla na faculdade (Bacharelado em Sistemas de Informação, IFBA) e apresentado com conceitos de **Sistemas Operacionais**: hard links, processos, chamadas de sistema e atomicidade.
 
 ---
 
@@ -153,9 +153,11 @@ echo c >> /tmp/origem/a.txt
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Autores
 
 **Caio Simão** — estudante de Sistemas de Informação no IFBA
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/caio-simão-68400a3b1)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/CaioSimao01)
+
+**Breno Souza Costa**
